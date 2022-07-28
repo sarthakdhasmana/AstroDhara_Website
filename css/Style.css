@@ -1,6 +1,6 @@
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .heroSectionWrapper {
-    background: url('/Assets/Landing-Page_Assets/Hero-Section/Hero-Section_Background.jpg');
+    background: url('/assets/Landing-Page_Assets/Hero-Section/Hero-Section_Background.jpg');
     height: 100vh;
     background-size: 100% 100%;
     padding: 2em 10em;
@@ -221,7 +221,7 @@ header,
 }
 
 .leftZodiac {
-    background: url('/Assets/Landing-Page_Assets/Zodiac-Sign_Details/Zodiac-SignShown_background.jpg');
+    background: url('/assets/Landing-Page_Assets/Zodiac-Sign_Details/Zodiac-SignShown_background.jpg');
     background-size: 100% 100%;
     width: 43%;
     padding-left: 6em;
@@ -329,7 +329,7 @@ header,
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< RECENT POST >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .recentPost_section {
-    background: url('/Assets/Landing-Page_Assets/Recent-Post/RecentPosts_background.png');
+    background: url('/assets/Landing-Page_Assets/Recent-Post/RecentPosts_background.png');
     background-size: 100% 100%;
     object-fit: cover;
     padding: 4em 10em 6em;
