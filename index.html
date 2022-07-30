@@ -728,7 +728,8 @@
     <div class="productSection">
         <div class="productSectionText">
             <p class="sectionTitle productTitleBtm_margin">Our Products</p>
-            <p class="sectionTitleDesc">It is a long established fact that a reader will be distracted by the readable
+            <p class="sectionTitleDesc titleDesc">It is a long established fact that a reader will be distracted by the
+                readable
                 content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
                 more-or-less normal distribution of letters, </p>
         </div>
@@ -813,10 +814,59 @@
         </a>
     </div>
 
+    <div class="contactForm_section">
+        <div class="ContactFormText">
+            <p class="sectionTitle smallTitle">Fill the form to <span>Contact Us</span></p>
+            <p class="sectionTitleDesc titleDesc">It is a long established fact that a reader will be distracted by the
+                readable
+                content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                more-or-less normal distribution of letters, </p>
+        </div>
+        <div class="formContainer">
+            <div class="leftIllustrationForm"></div>
+            <div class="RightForm">
+                <form action="#">
+                    <div class="formInput">
+                        <p class="name">Name :</p>
+                        <div class="inputField">
+                            <img src="assets/Landing-Page_Assets/Form-Section/Name-Icon.svg" alt="Name icon">
+                            <input type="text" name="UserName" id="form_UserName" placeholder="Enter Your Full Name">
+                        </div>
+                    </div>
+                    <div class="formInput">
+                        <p class="DateOfBirth">Date of Birth :</p>
+                        <div class="inputField">
+                            <img src="assets/Landing-Page_Assets/Form-Section/Calendar-Icon.svg" alt="Calendar icon">
+                            <input type="text" name="UserDob" id="form_UserDob" placeholder="DD/MM/YYYY">
+                        </div>
+                    </div>
+                    <div class="formInput">
+                        <p class="PhoneNo">Phone No. :</p>
+                        <div class="inputField">
+                            <img src="assets/Landing-Page_Assets/Form-Section/Phone-Icon.svg" alt="Phone No. icon">
+                            <input type="number" name="UserPhoneNo" id="form_UserPhoneNo"
+                                placeholder="Enter Your Number">
+                        </div>
+                    </div>
+                    <div class="formInput margin_submitBtn">
+                        <p class="Message">Message :</p>
+                        <div class="inputField">
+                            <textarea type="text" name="UserMessage" cols="40" rows="10" id="form_UserMessage"
+                                placeholder="Enter Your Message Here"></textarea>
+                        </div>
+                    </div>
+                    <div class="formSubmitBtn">
+                        <p>Send Message</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="js/imageSlider.js"></script>
     <script src="js/zodiacSign.js"></script>
     <script src="js/ServiceSection.js"></script>
+    <script type="module" src="js/firebase.js"></script>
 </body>
 
 </html>
