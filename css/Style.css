@@ -667,3 +667,107 @@ textarea {
 .margin_submitBtn {
     margin-bottom: 15px;
 }
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< LOCATE US SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.location_section {
+    background: linear-gradient(180deg, #132540 0%, #111027 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 10em;
+}
+
+.locateUs_Title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.locate_title hr {
+    background-color: #FF5C00;
+    height: 5px;
+    border-radius: 5px;
+    width: 11em;
+}
+
+.location_text {
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.location,
+.time,
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.location_img {
+    width: 3em;
+}
+
+.locate_title {
+    margin-bottom: 2.3em;
+}
+
+.star {
+    width: 2.2em;
+}
+
+.o {
+    color: #FF5C00;
+}
+
+.leftLocation {
+    width: 40%;
+}
+
+.rightlocationMap {
+    width: 45%;
+}
+
+.google {
+    font-weight: 400;
+    font-size: 12px;
+    color: #DBD7D7;
+    margin-left: 10px;
+    height: 27px;
+    margin-top: auto;
+}
+
+.g1 {
+    color: #4285F4;
+}
+
+.g2 {
+    color: #DB4437;
+}
+
+.g3 {
+    color: #F4B400;
+}
+
+.g4 {
+    color: #4285F4;
+}
+
+.g5 {
+    color: #0F9D58;
+}
+
+.g6 {
+    color: #DB4437;
+}
+
+.rightlocationMap iframe {
+    border: 0;
+    width: 100%;
+    height: 17em;
+}
