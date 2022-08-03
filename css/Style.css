@@ -1,7 +1,7 @@
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .heroSectionWrapper {
     background: url('/assets/Landing-Page_Assets/Hero-Section/Hero-Section_background.jpg');
-    height: 100vh;
+    /* height: 100vh; */
     background-size: 100% 100%;
     padding: 2em 10em;
 }
@@ -34,7 +34,7 @@ header,
 }
 
 .leftlinks {
-    width: 13%;
+    width: 14%;
 }
 
 .navitems {
@@ -67,6 +67,82 @@ header,
     line-height: 27px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 0em 4em;
+}
+
+.leftText_Content {
+    width: 48%;
+}
+
+.pageTaglineHindi {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.pageTaglineEnglish {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FEFEFE;
+    margin-bottom: 40px;
+}
+
+.pageTaglineEnglish span {
+    color: #FF5C00;
+}
+
+.connectbtn,
+.Explorebtn {
+    border-radius: 8px;
+    width: 10em;
+    height: 2.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.connectbtn {
+    background-color: #3477F5;
+    width: 11em;
+}
+
+.connect {
+    color: #ffffff;
+}
+
+.connect,
+.Explore {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Explorebtn {
+    background-color: #ffffff;
+}
+
+.Explore {
+    color: #3477F5;
+}
+
+.headerBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22em;
+}
+
+.rightImage_Content img {
+    width: 100%;
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< IMAGE SLIDER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -162,7 +238,7 @@ header,
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ZODIAC SIGN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .zodiacSection_Wrapper {
     padding: 1em 6em;
-    background: #111027;
+    background: linear-gradient(180deg, #0A0A0A 0%, #132540 179.99%);
 }
 
 .zodiacSign {
@@ -219,6 +295,7 @@ header,
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .leftZodiac {
@@ -248,7 +325,7 @@ header,
 .zodiacSignDetail {
     position: absolute;
     opacity: 0;
-    width: 38em;
+    width: 40em;
 }
 
 .zodiacDetail_active {
@@ -261,7 +338,8 @@ header,
 
 .zodiacDetail_img {
     height: 32em;
-    width: 30em;
+    border-radius: 50%;
+    width: 32em;
     position: absolute;
     opacity: 0;
     transition: all 500ms;
@@ -344,7 +422,7 @@ header,
 }
 
 .sectionHeading {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .recentPost_img {
@@ -613,7 +691,7 @@ textarea {
 
 .inputField input {
     height: 38px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     width: 100%;
     border-radius: 5px;
@@ -663,6 +741,11 @@ textarea {
     padding: 10px;
     width: 11em;
     border-radius: 6px;
+    transition: 500ms;
+}
+
+.formSubmitBtn:hover {
+    filter: drop-shadow(0px 2px 2px #FF5C00) drop-shadow(0px 2px 2px #FFFFFF);
 }
 
 .margin_submitBtn {
@@ -675,7 +758,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3em 10em;
+    padding: 5em 10em 4em;
 }
 
 .locateUs_Title {
