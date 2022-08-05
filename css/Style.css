@@ -145,6 +145,85 @@ header,
     width: 100%;
 }
 
+.mobileMenu {
+    background-color: #111027;
+    position: relative;
+}
+
+.hamburger {
+    position: relative;
+    display: block;
+    border: none;
+    appearance: none;
+    outline: none;
+    width: 40px;
+    cursor: pointer;
+    background: none;
+    z-index: 9999;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+    display: block;
+    border-radius: 5px;
+    content: "";
+    width: 100%;
+    height: 5px;
+    margin: 6px 0px;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.hamburger.is-active:after {
+    transform: rotate(-46deg) translate(4px, -4px);
+}
+
+.hamburger.is-active .bar {
+    display: none;
+}
+
+.hamburger.is-active:before {
+    transform: rotate(46deg) translate(4px, 4px);
+}
+
+.mobileNav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: #111027;
+    width: 100%;
+    padding-top: 10em;
+    transition: 0.5ms;
+}
+
+.mobileNav.is-active {
+    display: block;
+    z-index: 9999;
+}
+
+.Mobnavlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding: 0px;
+    list-style: none;
+}
+
+.fsize {
+    font-size: 20px;
+}
+
+.btnmar {
+    width: 9em;
+    margin: 35px auto;
+}
+
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< IMAGE SLIDER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .SlideImage {
     width: 100%;
@@ -916,4 +995,455 @@ footer {
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {
+
+    /*<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>*/
+    .heroSectionWrapper {
+        padding: 20px 16px;
+        background-size: 95em 100%;
+    }
+
+    .astrodharalogo {
+        width: 9em;
+    }
+
+    .leftlinks {
+        width: 9em;
+    }
+
+    .rightlinks {
+        display: none;
+    }
+
+    .heroSection {
+        flex-direction: column-reverse;
+        padding: 2em 0em 3em;
+    }
+
+    .leftText_Content {
+        width: 100%;
+    }
+
+    .pageTaglineHindi {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .pageTaglineEnglish {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .rightImage_Content {
+        width: 70%;
+    }
+
+    .headerBtns {
+        width: 21.7em;
+    }
+
+    .connectbtn {
+        width: 11em;
+    }
+
+    .connectbtn,
+    .Explorebtn {
+        height: 2.5em;
+    }
+
+    .overflowdesc {
+        overflow: hidden;
+        width: 21.5em;
+        border-radius: 5px;
+    }
+
+    /*<<<<<<<<<<<<<< IMAGE SLIDER WRAPPER >>>>>>>>>>>>>>>*/
+    .Image_DescWrapper {
+        height: 36em;
+    }
+
+    .imageDesc {
+        width: 107em;
+    }
+
+    .desc {
+        padding: 10px;
+    }
+
+    .Desctitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .textDesc {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .indicatorBtns {
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    .desc_indicatorWrapper {
+        padding: 0em 16px;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        top: 24em;
+    }
+
+    .SlideImage {
+        width: 100%;
+        height: 36em;
+        object-fit: cover;
+    }
+
+    .image_Slider {
+        display: none;
+    }
+
+    /*<<<<<<<<<<<<<< ZODIAC SIGN >>>>>>>>>>>>>>>*/
+    .zodiacSection_Wrapper {
+        padding: 1em 16px;
+    }
+
+    .zodiacSection_title {
+        font-size: 30px;
+    }
+
+    .zodiacSection_Desc {
+        width: 100%;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .zodiacSection_Desc span {
+        display: none;
+    }
+
+    .zodiacSign {
+        height: 60px;
+        width: 60px;
+        border: 5px solid #111027;
+    }
+
+    .zodiac {
+        padding: 4px;
+    }
+
+    .zodiacSign_section {
+        grid-column-gap: 21px;
+        grid-row-gap: 20px;
+        padding: 1em 16px;
+        overflow: auto;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar {
+        width: 20px;
+        height: 8px;
+    }
+
+
+    /* Track */
+    .zodiacSign_section::-webkit-scrollbar-track {
+        /* box-shadow: 0 0 5px #1b365f; */
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    .zodiacSign_section::-webkit-scrollbar-thumb {
+        background: #132540;
+        border-radius: 8px;
+    }
+
+    /* Handle on hover */
+    .zodiacSign_section::-webkit-scrollbar-thumb:hover {
+        background: #1b365f;
+    }
+
+
+    .zodiacSign_details-Section {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .leftZodiac {
+        width: 100%;
+        padding: 20px 16px;
+        border-radius: 0px;
+        justify-content: center;
+        height: 15em;
+    }
+
+    .centerZodiac {
+        height: 14em;
+        width: 14em;
+    }
+
+    .zodiacDetail_img {
+        height: auto;
+        width: 100%;
+    }
+
+    .rightZodiacDetails {
+        width: 100%;
+        padding-right: 0px;
+        padding: 10px 16px;
+    }
+
+    .zodiacSignDetail {
+        width: 100%;
+    }
+
+    .zodiacDetailsWrapper {
+        width: 100%;
+        position: relative;
+        height: 38em;
+    }
+
+    .zodiacSignDetailsTop {
+        margin: 20px 0px;
+        justify-content: center;
+    }
+
+    .zodiacName span {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .zodiacName {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .zodiacDate {
+        font-size: 14px;
+    }
+
+    .leftZodiacSign {
+        height: 50px;
+        width: 55px;
+    }
+
+    .zodiacDesc {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .horoscopeDate {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+
+    /*<<<<<<<<<<<<<< RECENT POST SECTION >>>>>>>>>>>>>>>*/
+    .recentPost_section {
+        padding: 40px 16px 60px;
+        background-size: 100%;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .recentPosts {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 18px;
+    }
+
+    .post {
+        border-radius: 8px;
+        height: 15em;
+    }
+
+    .recentPost_img {
+        object-fit: cover;
+        height: 9em;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .PostDesc {
+        padding: 3px 10px;
+    }
+
+    .postDate {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .postTitle {
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+
+
+    /*<<<<<<<<<<<<<< SERVICES SECTION >>>>>>>>>>>>>>>*/
+    .servicesSection {
+        padding: 40px 16px;
+        flex-direction: column;
+    }
+
+    .leftService {
+        width: 100%;
+    }
+
+    .sectionTitleDesc {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .serviceDescBtm_mar {
+        margin-bottom: 20px;
+    }
+
+    .fixWidth {
+        display: none;
+    }
+
+    .show_mob {
+        display: block;
+        margin-top: 28px;
+    }
+
+    .rightService {
+        width: 100%;
+    }
+
+
+    /*<<<<<<<<<<<<<< PRODUCT SECTION >>>>>>>>>>>>>>>*/
+    .productSection {
+        padding: 4em 0em 3em;
+    }
+
+    .productSectionText {
+        padding: 20px 16px;
+    }
+
+    .titleDesc {
+        width: auto;
+    }
+
+    .initialProducts {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        height: auto;
+        grid-row-gap: 15px;
+    }
+
+    .product {
+        border-radius: 8px;
+    }
+
+    .productBg {
+        padding: 10px;
+        height: 7em;
+    }
+
+    .productDetail {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+
+    .initialProductSection {
+        padding: 20px 16px;
+    }
+
+    .moreProductsBtn {
+        width: 10.5em;
+        padding: 10px 10px;
+        margin: 0px auto 0px;
+    }
+
+    .productPrice {
+        font-size: 14px;
+    }
+
+    .productPrice {
+        text-align: end;
+    }
+
+    .productDetail {
+        align-items: normal;
+        padding: 10px;
+    }
+
+
+
+    /*<<<<<<<<<<<<<< FORM SECTION >>>>>>>>>>>>>>>*/
+    .contactForm_section {
+        background-color: #111027;
+        padding: 40px 16px;
+    }
+
+    .RightForm {
+        width: 100%;
+    }
+
+    .name,
+    .DateOfBirth,
+    .PhoneNo,
+    .Message {
+        font-size: 15px;
+    }
+
+    .inputField input {
+        font-size: 14px;
+    }
+
+    /*<<<<<<<<<<<<<< LOCATION SECTION >>>>>>>>>>>>>>>*/
+    .location_section {
+        padding: 40px 16px;
+        flex-direction: column;
+    }
+
+    .leftLocation {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .rightlocationMap {
+        width: 100%;
+    }
+
+    .location_img {
+        width: 2.3em;
+    }
+
+    .location_text {
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+    .locate_title hr {
+        height: 4px;
+        border-radius: 5px;
+        width: 9em;
+    }
+
+    .locate_title {
+        margin-bottom: 1.8em;
+    }
+
+    .locateUs_Title {
+        font-size: 25px;
+    }
+
+    iframe {
+        border: 0;
+        height: 11em;
+    }
 }
