@@ -152,7 +152,7 @@ header,
 
 .hamburger {
     position: relative;
-    display: block;
+    display: none;
     border: none;
     appearance: none;
     outline: none;
@@ -582,9 +582,12 @@ header,
 }
 
 .moreServices {
-    text-decoration: underline;
     font-size: 16px;
     color: #c0c0c0;
+}
+
+.moreServices :hover {
+    text-decoration: underline;
 }
 
 .fixWidth {
@@ -1020,6 +1023,10 @@ footer {
         display: none;
     }
 
+    .hamburger {
+        display: block;
+    }
+
     .heroSection {
         flex-direction: column-reverse;
         padding: 2em 0em 3em;
@@ -1046,6 +1053,7 @@ footer {
 
     .headerBtns {
         width: 21.7em;
+        margin: auto;
     }
 
     .connectbtn {
@@ -1111,17 +1119,21 @@ footer {
 
     /*<<<<<<<<<<<<<< ZODIAC SIGN >>>>>>>>>>>>>>>*/
     .zodiacSection_Wrapper {
-        padding: 1em 16px;
+        padding: 1em 16px 2em;
     }
 
     .zodiacSection_title {
-        font-size: 30px;
+        font-size: 2.2em;
+        font-weight: 600;
     }
 
     .zodiacSection_Desc {
         width: 100%;
-        font-size: 14px;
         line-height: 27px;
+    }
+
+    .zodiacSection_text {
+        margin-bottom: 28px;
     }
 
     .zodiacSection_Desc span {
@@ -1129,8 +1141,8 @@ footer {
     }
 
     .zodiacSign {
-        height: 60px;
-        width: 60px;
+        height: 65px;
+        width: 65px;
         border: 5px solid #111027;
     }
 
@@ -1250,26 +1262,29 @@ footer {
     }
 
     .sectionTitle {
-        font-size: 30px;
+        font-size: 2.2em;
+        font-weight: 600;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 22px;
+        letter-spacing: 2px;
+        line-height: 40px;
     }
 
     .recentPosts {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-column-gap: 0px;
-        grid-row-gap: 18px;
+        grid-row-gap: 22px;
     }
 
     .post {
         border-radius: 8px;
-        height: 15em;
+        height: 16em;
     }
 
     .recentPost_img {
         object-fit: cover;
-        height: 9em;
+        height: 10.5em;
         border-radius: 8px 8px 0px 0px;
     }
 
@@ -1300,11 +1315,10 @@ footer {
 
     .sectionTitleDesc {
         text-align: center;
-        font-size: 14px;
     }
 
     .serviceDescBtm_mar {
-        margin-bottom: 20px;
+        margin-bottom: 3em;
     }
 
     .fixWidth {
@@ -1323,7 +1337,7 @@ footer {
 
     /*<<<<<<<<<<<<<< PRODUCT SECTION >>>>>>>>>>>>>>>*/
     .productSection {
-        padding: 4em 0em 3em;
+        padding: 2em 0em 3em;
     }
 
     .productSectionText {
@@ -1384,22 +1398,20 @@ footer {
     /*<<<<<<<<<<<<<< FORM SECTION >>>>>>>>>>>>>>>*/
     .contactForm_section {
         background-color: #111027;
-        padding: 40px 16px;
+        padding: 50px 16px;
     }
 
     .RightForm {
         width: 100%;
     }
 
-    .name,
-    .DateOfBirth,
-    .PhoneNo,
-    .Message {
-        font-size: 15px;
+    .inputField img {
+        top: 8px;
     }
 
     .inputField input {
         font-size: 14px;
+        height: 42px;
     }
 
     /*<<<<<<<<<<<<<< LOCATION SECTION >>>>>>>>>>>>>>>*/
@@ -1423,15 +1435,16 @@ footer {
 
     .location_text {
         margin-left: 8px;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 26px;
         letter-spacing: 0em;
     }
 
     .locate_title hr {
-        height: 4px;
+        height: 5px;
         border-radius: 5px;
-        width: 9em;
+        width: 12em;
     }
 
     .locate_title {
@@ -1439,11 +1452,34 @@ footer {
     }
 
     .locateUs_Title {
-        font-size: 25px;
+        font-size: 2.2em;
     }
 
     iframe {
         border: 0;
         height: 11em;
     }
+
+    /*<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>*/
+    footer {
+        padding: 20px 16px 10px;
+    }
+
+    .hide_mob {
+        display: none;
+    }
+
+    .navLinks {
+        width: 17em;
+    }
+
+    .show_mobile {
+        width: 12em;
+        margin-top: 9px;
+    }
+
+    .social_links {
+        margin: 35px auto 25px;
+    }
+
 }
