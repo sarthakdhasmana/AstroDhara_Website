@@ -1,0 +1,82 @@
+footer {
+    background: linear-gradient(180deg, #132540 0%, #111027 100%);
+    padding: 2.5em 0px 15px;
+}
+
+
+.footerBrand {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FF5C00;
+    margin-bottom: 18px;
+}
+
+.footerNav_links {
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.show_mobile {
+    display: none !important;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 29em;
+    margin: auto;
+}
+
+.social_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9em;
+    margin: 22px auto;
+}
+
+.social {
+    width: 32px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {
+
+    /*<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>*/
+    footer {
+        padding: 20px 16px 10px;
+    }
+
+    .hide_mob {
+        display: none;
+    }
+
+    .navLinks {
+        width: 17em;
+    }
+
+    .show_mobile {
+        width: 12em;
+        margin-top: 9px;
+    }
+
+    .social_links {
+        margin: 35px auto 25px;
+    }
+
+}

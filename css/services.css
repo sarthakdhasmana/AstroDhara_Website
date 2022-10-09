@@ -1,0 +1,89 @@
+* {
+    color: #ffffff;
+}
+
+.servicesHeader {
+    padding: 2em 10em;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spacebtw {
+    margin: 3em 0em;
+}
+
+.pageTitle {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 68px;
+    letter-spacing: 0.08em;
+}
+
+.pageTitleDesc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.serviceTitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 126.9%;
+}
+
+.serviceDesc {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.servicesCollection {
+    padding-top: 4em;
+}
+
+.leftService {
+    padding: 3em 0em 3em 10em;
+}
+
+.rightService {
+    flex-direction: row-reverse;
+    padding: 3em 10em 3em 0em;
+    background-color: #0D2439;
+}
+
+.firstPartService {
+    width: 45%;
+}
+
+.secondPartService {
+    width: 46%;
+}
+
+.desc2 {
+    margin-top: 10px;
+}
+
+.serviceImg {
+    width: 100%;
+    height: 24em;
+}
+
+.rightServImg {
+    border-radius: 50px 0px 0px 390px;
+}
+
+.leftServImg {
+    border-radius: 0px 390px 50px 0px;
+}
+
+
+.plainbg {
+    background: #111027;
+    margin-top: 2em;
+}
