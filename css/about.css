@@ -3,9 +3,130 @@
 }
 
 
+.AboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.leftAbout {
+    width: 45%;
+}
+
+.rightAbout {
+    width: 46%;
+}
+
+.aboutImg {
+    width: 100%;
+    height: 22em;
+}
+
+.aboutTitle {
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 126.9%;
+}
+
+.aboutDesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.desc1 {
+    margin-bottom: 18px;
+}
+
+.leftAboutContainer {
+    padding: 3em 0em 3em 10em;
+}
+
+.sm {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.rightAboutContainer {
+    flex-direction: row-reverse;
+    padding: 4em 10em 3em 0em;
+}
 
 .plainbg {
     background: #111027;
     margin-top: 2em;
+}
+
+.aboutDisciples {
+    margin-top: 2em;
+}
+
+.sectionHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 5em;
+}
+
+.sectionTitle {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 100%;
+}
+
+.whiteLine {
+    width: 38%;
+    height: 8px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.DiscipleContainer {
+    width: 42%;
+    margin: auto;
+}
+
+.disciple {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.tags {
+    margin-bottom: 10px;
+    width: 9.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftdisciple {
+    width: 50%;
+}
+
+.tag {
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #111027;
+    padding: 4px 8px;
+}
+
+.smalldesc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 126.9%;
+    color: #50668F;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 114.9%;
+}
+
+.name,
+.smalldesc {
+    color: #111027;
 }
