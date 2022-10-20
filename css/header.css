@@ -142,3 +142,30 @@ header,
     width: 9em;
     margin: 35px auto;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {
+
+    /*<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>*/
+    .heroSectionWrapper {
+        padding: 20px 16px;
+        background-size: 95em 100%;
+    }
+
+    .astrodharalogo {
+        width: 9em;
+    }
+
+    .leftlinks {
+        width: 9em;
+    }
+
+    .rightlinks {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

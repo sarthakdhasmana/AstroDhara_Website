@@ -1069,7 +1069,7 @@ textarea {
         background-size: 95em 100%;
     }
 
-    .astrodharalogo {
+    /* .astrodharalogo {
         width: 9em;
     }
 
@@ -1083,7 +1083,7 @@ textarea {
 
     .hamburger {
         display: block;
-    }
+    } */
 
     .heroSection {
         flex-direction: column-reverse;

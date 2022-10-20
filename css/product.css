@@ -1,0 +1,160 @@
+* {
+    color: #FFFFFF;
+}
+
+.pageHeading {
+    padding: 2em 10em;
+    text-align: center;
+}
+
+.pageTitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 68px;
+    letter-spacing: 0.08em;
+}
+
+.pageTitleDesc {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.productsWrapper {
+    padding: 4em 10em 6em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 29px;
+    grid-column-gap: 29px;
+}
+
+.products {
+    border-radius: 16px;
+    background-color: #EDF3FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    margin: auto;
+}
+
+.productTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.productImage {
+    height: 6em;
+    width: 8em;
+}
+
+.productRight {
+    border-radius: 0px 16px 16px 0px;
+    background-color: #FFFFFF;
+    width: 62%;
+    padding: 32px 25px;
+}
+
+.englishProductName,
+.hindiProductName {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    color: #111027;
+}
+
+.productPrice {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 145%;
+    color: #FF5C00;
+}
+
+.productGst {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    color: #6B6B79;
+}
+
+.productDesc {
+    font-weight: 400;
+    font-size: 14px;
+    color: #061B31;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {
+
+    .pageHeading {
+        padding: 30px 16px;
+    }
+
+    .pageTitle {
+        font-size: 30px;
+    }
+
+    .pageTitleDesc {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .productsWrapper {
+        padding: 20px 16px 55px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 22px;
+        grid-column-gap: 0px;
+    }
+
+    .englishProductName,
+    .hindiProductName {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .rightProductTitle {
+        width: 5em;
+        margin-left: auto;
+    }
+
+    .productDesc {
+        display: none;
+    }
+
+    .productPrice {
+        font-size: 14px;
+    }
+
+    .productGst {
+        font-size: 8px;
+    }
+
+    .productLeft {
+        width: 30%;
+    }
+
+    .productRight {
+        width: 58%;
+        padding: 20px 12px;
+    }
+
+    .productTitle {
+        display: block;
+        margin-bottom: 0px;
+    }
+}
