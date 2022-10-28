@@ -1,12 +1,60 @@
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .heroSectionWrapper {
-    background: url('/assets/Landing-Page_Assets/Hero-Section/Hero-Section_background.jpg');
-    /* height: 100vh; */
     background-size: 100% 100%;
+    height: 100vh;
     padding: 2em 10em;
 }
 
-header,
+.stars-hero {
+    background: transparent url('/assets/Landing-Page_Assets/Hero-Section/stars_bg.png')repeat top center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -200;
+}
+
+.star-twinkling {
+    background: transparent url("/assets/Landing-Page_Assets/Hero-Section/bg-twinkle.png") top center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -100;
+    -webkit-animation: move-twink 500s linear infinite;
+    animation: move-twink 500s linear infinite;
+}
+
+@-webkit-keyframes move-twink {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -10000px 0;
+    }
+}
+
+@keyframes move-twink {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -10000px 0;
+    }
+}
+
+/* header,
 .rightlinks,
 .navlinks,
 .contactBtn {
@@ -21,11 +69,11 @@ header,
 
 .rightlinks {
     justify-content: flex-end;
-    width: 50%;
+    width: 55%;
 }
 
 .items {
-    width: 65%;
+    width: 70%;
 }
 
 .navlinks {
@@ -39,8 +87,8 @@ header,
 
 .navitems {
     color: #ffffff;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 27px;
     letter-spacing: 2px;
 }
@@ -51,6 +99,7 @@ header,
 
 .btn {
     margin-left: 2.5em;
+    width: 9em;
 }
 
 .contactBtn {
@@ -62,22 +111,22 @@ header,
 
 .contactBtn p {
     margin-left: 5px;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 27px;
     text-align: center;
     color: #FFFFFF;
-}
+} */
 
 .heroSection {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 3em 0em 4em;
+    padding: 4em 0em;
 }
 
 .leftText_Content {
     width: 48%;
+    padding-top: 2em;
 }
 
 .pageTaglineHindi {
@@ -85,7 +134,7 @@ header,
     font-size: 45px;
     line-height: 72px;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .pageTaglineEnglish {
@@ -102,7 +151,7 @@ header,
 
 .connectbtn,
 .Explorebtn {
-    border-radius: 8px;
+    border-radius: 6px;
     width: 10em;
     height: 2.8em;
     display: flex;
@@ -143,14 +192,16 @@ header,
 
 .rightImage_Content img {
     width: 100%;
+    height: 30em;
 }
 
+/* 
 .mobileMenu {
     background-color: #111027;
     position: relative;
-}
+} */
 
-.hamburger {
+/* .hamburger {
     position: relative;
     display: none;
     border: none;
@@ -222,7 +273,7 @@ header,
 .btnmar {
     width: 9em;
     margin: 35px auto;
-}
+} */
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< IMAGE SLIDER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .SlideImage {
@@ -558,6 +609,10 @@ header,
 
 .leftService {
     width: 45%;
+}
+
+.show_mob {
+    display: none;
 }
 
 .rightService {
@@ -949,9 +1004,12 @@ textarea {
     height: 15em;
 }
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 footer {
-    /* background-color: #111027;*/
+    background: linear-gradient(180deg, #132540 0%, #111027 100%);
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* footer {
     background: linear-gradient(180deg, #132540 0%, #111027 100%);
     padding: 2.5em 0px 15px;
 }
@@ -970,6 +1028,10 @@ footer {
     font-size: 15px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.show_mobile {
+    display: none !important;
 }
 
 .navLinks {
@@ -998,7 +1060,7 @@ footer {
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
-}
+} */
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -1011,7 +1073,7 @@ footer {
         background-size: 95em 100%;
     }
 
-    .astrodharalogo {
+    /* .astrodharalogo {
         width: 9em;
     }
 
@@ -1025,39 +1087,54 @@ footer {
 
     .hamburger {
         display: block;
-    }
+    } */
 
     .heroSection {
         flex-direction: column-reverse;
-        padding: 2em 0em 3em;
+        padding: 1em 0em 3em;
     }
 
     .leftText_Content {
         width: 100%;
+        padding-top: 1em;
     }
 
     .pageTaglineHindi {
-        font-size: 30px;
+        font-size: 27px;
         line-height: 45px;
+        margin-bottom: 12px;
     }
 
     .pageTaglineEnglish {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
         margin-bottom: 30px;
     }
 
     .rightImage_Content {
-        width: 70%;
+        width: 100%;
+    }
+
+    .rightImage_Content img {
+        height: 19em;
     }
 
     .headerBtns {
-        width: 21.7em;
+        width: 100%;
         margin: auto;
     }
 
+    .connect,
+    .Explore {
+        font-size: 14px;
+    }
+
     .connectbtn {
-        width: 11em;
+        width: 10em;
+    }
+
+    .Explorebtn {
+        width: 9em;
     }
 
     .connectbtn,
@@ -1129,7 +1206,8 @@ footer {
 
     .zodiacSection_Desc {
         width: 100%;
-        line-height: 27px;
+        line-height: 22px;
+        font-size: 14px;
     }
 
     .zodiacSection_text {
@@ -1315,6 +1393,11 @@ footer {
 
     .sectionTitleDesc {
         text-align: center;
+        font-size: 14px;
+    }
+
+    .sectionHeading {
+        margin-bottom: 45px;
     }
 
     .serviceDescBtm_mar {
@@ -1393,6 +1476,10 @@ footer {
         padding: 10px;
     }
 
+    .gst {
+        font-size: 8px;
+    }
+
 
 
     /*<<<<<<<<<<<<<< FORM SECTION >>>>>>>>>>>>>>>*/
@@ -1435,9 +1522,9 @@ footer {
 
     .location_text {
         margin-left: 8px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
-        line-height: 26px;
+        line-height: 20px;
         letter-spacing: 0em;
     }
 
@@ -1461,7 +1548,7 @@ footer {
     }
 
     /*<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>*/
-    footer {
+    /* footer {
         padding: 20px 16px 10px;
     }
 
@@ -1480,6 +1567,6 @@ footer {
 
     .social_links {
         margin: 35px auto 25px;
-    }
+    } */
 
 }

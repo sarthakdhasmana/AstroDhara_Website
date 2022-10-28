@@ -340,14 +340,16 @@
 .desc {
     padding: 10px 16px;
     background: #ffffff;
+    opacity: 0;
+    position: absolute;
 }
 
 .imageDesc {
-    width: 49%;
+    width: 100%;
     position: relative;
-    width: 180em;
     display: flex;
     transition: 400ms;
+    height: 6.5em;
 }
 
 .Desctitle {
@@ -1004,6 +1006,10 @@ textarea {
     height: 15em;
 }
 
+footer {
+    background: linear-gradient(180deg, #132540 0%, #111027 100%);
+}
+
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /* footer {
     background: linear-gradient(180deg, #132540 0%, #111027 100%);
@@ -1060,6 +1066,879 @@ textarea {
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*#################### MEDIA (1400px) #################*/
+@media (min-width:1201px) and (max-width:1400px) {
+    .heroSectionWrapper {
+        padding: 2em 6em;
+    }
+
+    .leftlinks {
+        width: 18%;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+
+    .desc_indicatorWrapper {
+        padding: 0em 6em;
+    }
+
+    .zodiacSection_Desc {
+        width: 100%;
+    }
+
+    .zodiacSign_section {
+        padding: 1em 5em;
+    }
+
+    .leftZodiac {
+        width: 46%;
+    }
+
+    .centerZodiac {
+        height: 23em;
+        width: 22em;
+    }
+
+    .zodiacDetail_img {
+        height: 23em;
+        width: 100%;
+    }
+
+    .zodiacSignDetail {
+        padding-right: 6em;
+        width: 100%;
+    }
+
+    .rightZodiacDetails {
+        padding-right: 0em;
+    }
+
+    .recentPost_section {
+        padding: 4em 6em 6em;
+    }
+
+    .servicesSection {
+        padding: 5em 6em;
+    }
+
+    .titleDesc {
+        width: 55em;
+    }
+
+    .initialProductSection {
+        padding: 2em 6em;
+    }
+
+    .contactForm_section {
+        padding: 3em 6em;
+    }
+
+    .location_section {
+        padding: 5em 6em 4em;
+    }
+}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:993px) and (max-width:1200px) {
+    .heroSectionWrapper {
+        padding: 2em 4em;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 146px;
+    }
+
+    .leftlinks {
+        width: 25%;
+    }
+
+    .navitems {
+        font-weight: 400;
+    }
+
+    .desc_indicatorWrapper {
+        padding: 0em 6em;
+    }
+
+    .contactBtn p {
+        font-weight: 400;
+    }
+
+    .leftText_Content {
+        width: 50%;
+    }
+
+    .pageTaglineHindi {
+        font-size: 35px;
+    }
+
+    .zodiacSection_Desc {
+        width: 100%;
+    }
+
+    .pageTaglineEnglish {
+        font-size: 17px;
+    }
+
+    .zodiacSign_section {
+        padding: 1em 3em;
+    }
+
+    .leftZodiac {
+        width: 46%;
+        padding-left: 4em;
+    }
+
+    .centerZodiac {
+        height: 20em;
+        width: 20em;
+    }
+
+    .zodiacDetail_img {
+        height: 23em;
+        width: 100%;
+    }
+
+    .zodiacSignDetail {
+        padding-right: 4em;
+        width: 100%;
+    }
+
+    .zodiacSignDetailsTop {
+        margin-bottom: 25px;
+    }
+
+    .leftZodiacSign {
+        height: 60px;
+        width: 65px;
+    }
+
+    .zodiacName {
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 35px;
+    }
+
+    .zodiacDate {
+        font-size: 14px;
+    }
+
+    .dateMargin {
+        margin-bottom: 30px;
+    }
+
+    .zodiacDetailsWrapper {
+        height: 40em;
+    }
+
+
+    .rightZodiacDetails {
+        padding-right: 0em;
+    }
+
+    .recentPost_section {
+        padding: 4em 4em 6em;
+    }
+
+    .recentPosts {
+        grid-column-gap: 18px;
+    }
+
+    .servicesSection {
+        padding: 5em 4em;
+    }
+
+    .rightService {
+        width: 49%;
+    }
+
+    .productSectionText {
+        padding: 0em 4em 2em;
+    }
+
+    .titleDesc {
+        width: 100%;
+    }
+
+    .initialProductSection {
+        padding: 2em 6em;
+    }
+
+    .initialProducts {
+        grid-column-gap: 15px;
+        height: 16em;
+    }
+
+    .productBg {
+        padding: 20px;
+        height: 8em;
+    }
+
+    .productDetail {
+        padding: 20px 10px;
+    }
+
+    .rightProductDetail {
+        width: 50%;
+    }
+
+    .productPrice {
+        font-size: 13px;
+    }
+
+    .gst {
+        font-size: 8px;
+    }
+
+    .productSection {
+        padding: 4em 0em 3em;
+    }
+
+
+    .contactForm_section {
+        padding: 3em 4em;
+    }
+
+    .location_section {
+        padding: 5em 4em 4em;
+    }
+
+    .leftLocation {
+        width: 50%;
+    }
+}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:768px) and (max-width:992px) {
+    .heroSectionWrapper {
+        padding: 2em 3em;
+    }
+
+    .contactImg {
+        display: none;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .contactBtn {
+        padding: 5px 8px;
+    }
+
+    .leftlinks {
+        width: 22%;
+    }
+
+    .navitems {
+        font-weight: 400;
+    }
+
+    .desc_indicatorWrapper {
+        padding: 0em 3em;
+    }
+
+    .contactBtn p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .hidattab {
+        display: none;
+    }
+
+    .leftText_Content {
+        width: 50%;
+    }
+
+    .pageTaglineHindi {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .zodiacSection_Desc {
+        width: 100%;
+        line-height: 26px;
+    }
+
+    .zodiacSection_Wrapper {
+        padding: 1em 3em;
+    }
+
+    .pageTaglineEnglish {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .connect,
+    .Explore {
+        font-size: 14px;
+    }
+
+    .Explorebtn {
+        border-radius: 6px;
+        width: 9em;
+    }
+
+    .connectbtn {
+        width: 8.7em;
+    }
+
+    .headerBtns {
+        width: 18.7em;
+    }
+
+    .zodiacSign_section {
+        padding: 1em 0em;
+    }
+
+    .zodiacSign {
+        height: 80px;
+        width: 80px;
+    }
+
+    .zodiac {
+        padding: 4px;
+    }
+
+    .leftZodiac {
+        width: 43%;
+        padding-left: 1em;
+    }
+
+    .centerZodiac {
+        height: 20em;
+        width: 18em;
+    }
+
+    .zodiacDesc {
+        font-size: 14px;
+    }
+
+    .zodiacDetail_img {
+        height: 20em;
+        width: 100%;
+    }
+
+    .zodiacSignDetail {
+        padding-right: 3em;
+        width: 100%;
+    }
+
+    .zodiacSignDetailsTop {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .leftZodiacSign {
+        height: 55px;
+        width: 60px;
+    }
+
+    .zodiacName {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .zodiacDate {
+        font-size: 14px;
+    }
+
+    .dateMargin {
+        margin-bottom: 30px;
+    }
+
+    .zodiacDetailsWrapper {
+        height: 40em;
+    }
+
+
+    .rightZodiacDetails {
+        padding-right: 0em;
+        width: 54%;
+    }
+
+    .recentPost_section {
+        padding: 4em 3em 6em;
+    }
+
+    .recentPosts {
+        grid-column-gap: 18px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesSection {
+        padding: 5em 3em;
+    }
+
+    .sectionTitleDesc {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hiddenTab {
+        display: none;
+    }
+
+    .sectionTitle {
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 35px;
+    }
+
+    .rightService {
+        width: 50%;
+        grid-column-gap: 10px;
+    }
+
+    .productSectionText {
+        padding: 0em 3em 2em;
+    }
+
+    .titleDesc {
+        width: 100%;
+    }
+
+    .initialProductSection {
+        padding: 2em 3em 0em;
+    }
+
+    .initialProducts {
+        grid-column-gap: 12px;
+        height: 16em;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .productBg {
+        padding: 20px;
+        height: 8em;
+    }
+
+    .ImageActive {
+        object-fit: cover;
+    }
+
+    .productDetail {
+        padding: 20px 10px;
+    }
+
+    .rightProductDetail {
+        width: 50%;
+    }
+
+    .productPrice {
+        font-size: 13px;
+    }
+
+    .RightForm {
+        width: 50%;
+    }
+
+    .location_text {
+        font-size: 14px;
+    }
+
+    .gst {
+        font-size: 8px;
+    }
+
+    .productSection {
+        padding: 4em 0em 3em;
+    }
+
+
+    .contactForm_section {
+        padding: 3em 3em;
+    }
+
+    .location_section {
+        padding: 5em 3em 4em;
+    }
+
+    .leftLocation {
+        width: 51%;
+    }
+}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:568px) and (max-width:767px) {
+    .heroSectionWrapper {
+        padding: 32px 28px;
+    }
+
+    .heroSection {
+        padding: 1em 0em;
+        flex-direction: column-reverse;
+    }
+
+    .rightImage_Content {
+        width: 61%;
+        margin: auto;
+    }
+
+    .rightImage_Content img {
+        width: 100%;
+        height: 19em;
+    }
+
+    .contactImg {
+        display: block;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+
+    .contactBtn {
+        padding: 5px 10px;
+    }
+
+    .leftlinks {
+        width: 22%;
+    }
+
+    .navitems {
+        font-weight: 400;
+    }
+
+    .desc_indicatorWrapper {
+        padding: 0em 3em;
+    }
+
+    .contactBtn p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .hidattab {
+        display: none;
+    }
+
+    .leftText_Content {
+        width: 100%;
+    }
+
+    .pageTaglineHindi {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 49px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .zodiacSection_Desc {
+        width: 100%;
+        line-height: 26px;
+    }
+
+    .zodiacSection_Desc span {
+        display: none;
+    }
+
+    .zodiacSection_Wrapper {
+        padding: 16px 28px;
+    }
+
+    .pageTaglineEnglish {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+
+    .connect,
+    .Explore {
+        font-size: 14px;
+    }
+
+    .Explorebtn {
+        border-radius: 6px;
+        width: 11em;
+    }
+
+    .connectbtn {
+        width: 10.7em;
+    }
+
+    .headerBtns {
+        width: 22.7em;
+        margin: auto;
+    }
+
+    .zodiacSign_section {
+        padding: 1em 0em;
+    }
+
+    .zodiacSign {
+        height: 70px;
+        width: 70px;
+        border: 5px solid #111027;
+    }
+
+    .zodiac {
+        padding: 4px;
+    }
+
+    .leftZodiac {
+        width: 100%;
+        padding: 20px 28px;
+        border-radius: 0px;
+        justify-content: center;
+        height: 18em;
+    }
+
+    .centerZodiac {
+        height: 15em;
+        width: 16em;
+    }
+
+    .zodiacDesc {
+        font-size: 14px;
+    }
+
+    .zodiacSection_title {
+        font-size: 2.2em;
+        font-weight: 600;
+    }
+
+    .zodiacSign_section {
+        grid-column-gap: 21px;
+        grid-row-gap: 20px;
+        padding: 1em 0px;
+        overflow: auto;
+    }
+
+    .zodiacDetail_img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .zodiacSignDetail {
+        width: 100%;
+    }
+
+    .zodiacSignDetailsTop {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .leftZodiacSign {
+        height: 55px;
+        width: 60px;
+    }
+
+    .zodiacSign_details-Section {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .zodiacName {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .zodiacDate {
+        font-size: 14px;
+    }
+
+    .dateMargin {
+        margin-bottom: 30px;
+    }
+
+    .zodiacDetailsWrapper {
+        width: 100%;
+        position: relative;
+        height: 31em;
+    }
+
+
+    .rightZodiacDetails {
+        padding: 20px 28px;
+        width: 100%;
+    }
+
+    .recentPost_section {
+        padding: 4em 28px 6em;
+    }
+
+    .postTitle {
+        font-size: 14px;
+    }
+
+    .postDate {
+        font-size: 11px;
+    }
+
+    .recentPosts {
+        grid-column-gap: 12px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesSection {
+        padding: 55px 28px 0px;
+        flex-direction: column;
+    }
+
+    .leftService {
+        width: 100%;
+    }
+
+
+    .fixWidth {
+        display: none;
+    }
+
+    .show_mob {
+        display: block;
+        margin-top: 36px;
+    }
+
+    .sectionTitleDesc {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hiddenTab {
+        display: none;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 8px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+    .leftIllustrationForm {
+        display: none;
+    }
+
+    .rightService {
+        width: 100%;
+        grid-column-gap: 18px;
+    }
+
+    .serviceDescBtm_mar {
+        margin-bottom: 35px;
+    }
+
+    .productSectionText {
+        padding: 0em 28px 2em;
+    }
+
+    .titleDesc {
+        width: 100%;
+    }
+
+    .initialProductSection {
+        padding: 2em 28px 0em;
+    }
+
+    .initialProducts {
+        grid-column-gap: 10px;
+        height: 15em;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .product_img {
+        width: 80%;
+    }
+
+    .productBg {
+        padding: 20px;
+        height: 8em;
+    }
+
+    .ImageActive {
+        object-fit: cover;
+    }
+
+    .productDetail {
+        padding: 15px 8px;
+    }
+
+    .rightProductDetail {
+        width: 50%;
+    }
+
+    .productPrice {
+        font-size: 13px;
+    }
+
+    .RightForm {
+        width: 100%;
+    }
+
+    .formSubmitBtn {
+        margin: auto;
+    }
+
+    .location_text {
+        font-size: 15px;
+    }
+
+    .gst {
+        font-size: 8px;
+    }
+
+    .productSection {
+        padding: 4em 0em 3em;
+    }
+
+
+    .contactForm_section {
+        padding: 3em 3em;
+    }
+
+    .location_section {
+        padding: 5em 28px 4em;
+        flex-direction: column;
+    }
+
+
+
+    .leftLocation,
+    .rightlocationMap {
+        width: 100%;
+    }
+
+    .rightlocationMap {
+        margin-top: 35px;
+    }
+
+    .locateUs_Title {
+        font-size: 32px;
+    }
+
+    .locate_title hr {
+        height: 6px;
+        margin-top: 6px;
+        width: 12em;
+    }
+}
+
+
 /*#################### MEDIA (567px - Screen) #################*/
 @media screen and (max-width:567px) {
 
@@ -1087,35 +1966,50 @@ textarea {
 
     .heroSection {
         flex-direction: column-reverse;
-        padding: 2em 0em 3em;
+        padding: 1em 0em 3em;
     }
 
     .leftText_Content {
         width: 100%;
+        padding-top: 1em;
     }
 
     .pageTaglineHindi {
-        font-size: 30px;
+        font-size: 27px;
         line-height: 45px;
+        margin-bottom: 12px;
     }
 
     .pageTaglineEnglish {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
         margin-bottom: 30px;
     }
 
     .rightImage_Content {
-        width: 70%;
+        width: 100%;
+    }
+
+    .rightImage_Content img {
+        height: 19em;
     }
 
     .headerBtns {
-        width: 21.7em;
+        width: 100%;
         margin: auto;
     }
 
+    .connect,
+    .Explore {
+        font-size: 14px;
+    }
+
     .connectbtn {
-        width: 11em;
+        width: 10em;
+    }
+
+    .Explorebtn {
+        width: 9em;
     }
 
     .connectbtn,
@@ -1187,7 +2081,8 @@ textarea {
 
     .zodiacSection_Desc {
         width: 100%;
-        line-height: 27px;
+        line-height: 22px;
+        font-size: 14px;
     }
 
     .zodiacSection_text {
@@ -1373,6 +2268,11 @@ textarea {
 
     .sectionTitleDesc {
         text-align: center;
+        font-size: 14px;
+    }
+
+    .sectionHeading {
+        margin-bottom: 45px;
     }
 
     .serviceDescBtm_mar {
@@ -1451,6 +2351,10 @@ textarea {
         padding: 10px;
     }
 
+    .gst {
+        font-size: 8px;
+    }
+
 
 
     /*<<<<<<<<<<<<<< FORM SECTION >>>>>>>>>>>>>>>*/
@@ -1493,9 +2397,9 @@ textarea {
 
     .location_text {
         margin-left: 8px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
-        line-height: 26px;
+        line-height: 20px;
         letter-spacing: 0em;
     }
 

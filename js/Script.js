@@ -29,7 +29,7 @@ var connectBtn = document.querySelector('.connectbtn');
 var contactForm = document.querySelector('.contactForm_section');
 
 connectBtn.addEventListener('click', () => {
-    contactForm.scrollIntoView({ behavior: 'smooth' });
+    contactForm.scrollIntoView();
 })
 
 
