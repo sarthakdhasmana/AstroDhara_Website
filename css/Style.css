@@ -293,7 +293,6 @@
 .overflowdesc {
     overflow: hidden;
     width: 36em;
-    border-radius: 10px;
 }
 
 
@@ -342,6 +341,7 @@
     background: #ffffff;
     opacity: 0;
     position: absolute;
+    border-radius: 10px;
 }
 
 .imageDesc {
@@ -1077,10 +1077,6 @@ footer {
         width: 18%;
     }
 
-    .rightlinks {
-        width: 62%;
-    }
-
     .desc_indicatorWrapper {
         padding: 0em 6em;
     }
@@ -1372,6 +1368,28 @@ footer {
         line-height: 55px;
     }
 
+    .overflowdesc {
+        width: 30em;
+    }
+
+    .imageDesc {
+        height: 7.5em;
+    }
+
+    .indicatorBtns {
+        width: 15%;
+    }
+
+    .Desctitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .textDesc {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
     .zodiacSection_Desc {
         width: 100%;
         line-height: 26px;
@@ -1620,7 +1638,7 @@ footer {
     }
 
     .desc_indicatorWrapper {
-        padding: 0em 3em;
+        padding: 0em 28px;
     }
 
     .contactBtn p {
@@ -1643,7 +1661,27 @@ footer {
         margin-bottom: 10px;
     }
 
+    .overflowdesc {
+        width: 22em;
+    }
 
+    .imageDesc {
+        height: 8em;
+    }
+
+    .indicatorBtns {
+        width: 20%;
+    }
+
+    .Desctitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .textDesc {
+        font-size: 14px;
+        line-height: 21px;
+    }
 
     .zodiacSection_Desc {
         width: 100%;
@@ -1681,6 +1719,25 @@ footer {
     .headerBtns {
         width: 22.7em;
         margin: auto;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-track {
+        box-shadow: 0 0 5px #1b365f;
+        border-radius: 10px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar {
+        width: 20px;
+        height: 8px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-thumb {
+        background: #132540;
+        border-radius: 8px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-thumb:hover {
+        background: #1b365f;
     }
 
     .zodiacSign_section {
@@ -1995,7 +2052,7 @@ footer {
     }
 
     .headerBtns {
-        width: 100%;
+        width: 84%;
         margin: auto;
     }
 
@@ -2110,25 +2167,21 @@ footer {
         overflow: auto;
     }
 
+    .zodiacSign_section::-webkit-scrollbar-track {
+        box-shadow: 0 0 5px #1b365f;
+        border-radius: 10px;
+    }
+
     .zodiacSign_section::-webkit-scrollbar {
         width: 20px;
         height: 8px;
     }
 
-
-    /* Track */
-    .zodiacSign_section::-webkit-scrollbar-track {
-        /* box-shadow: 0 0 5px #1b365f; */
-        border-radius: 10px;
-    }
-
-    /* Handle */
     .zodiacSign_section::-webkit-scrollbar-thumb {
         background: #132540;
         border-radius: 8px;
     }
 
-    /* Handle on hover */
     .zodiacSign_section::-webkit-scrollbar-thumb:hover {
         background: #1b365f;
     }

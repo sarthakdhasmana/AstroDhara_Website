@@ -49,7 +49,7 @@
 
 .leftService {
     padding: 3em 0em 3em 10em;
-    background-color: #0D2439;
+    background: rgba(13, 36, 57, 0.45);
 }
 
 .rightService {
@@ -87,3 +87,24 @@
     background: linear-gradient(0deg, #132540 0%, #111027 100%);
     margin-top: 2em;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:1201px) and (max-width:1400px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:991px) and (max-width:1200px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:766px) and (max-width:992px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:566px) and (max-width:767px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {}

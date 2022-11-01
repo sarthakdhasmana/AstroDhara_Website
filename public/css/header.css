@@ -144,6 +144,64 @@ header,
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:1201px) and (max-width:1400px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:991px) and (max-width:1200px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:766px) and (max-width:992px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:568px) and (max-width:767px) {
+
+    /*<<<<<<<<<<<<<< HERO SECTION WRAPPER >>>>>>>>>>>>>>>*/
+    .heroSectionWrapper {
+        padding: 32px 28px;
+        background-size: 95em 100%;
+        height: 100%;
+    }
+
+    .btn {
+        width: 128px;
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    .contactImg {
+        display: block;
+    }
+
+    .astrodharalogo {
+        width: 9em;
+    }
+
+    .leftlinks {
+        width: 9em;
+    }
+
+    .rightlinks {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        width: 40px;
+    }
+
+    .hamburger .bar,
+    .hamburger:after,
+    .hamburger:before {
+        height: 5px;
+    }
+}
+
+
 /*#################### MEDIA (567px - Screen) #################*/
 @media screen and (max-width:567px) {
 

@@ -163,3 +163,25 @@
 .smalldesc {
     color: #111027;
 }
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:1201px) and (max-width:1400px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:991px) and (max-width:1200px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:766px) and (max-width:992px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media (min-width:566px) and (max-width:767px) {}
+
+
+/*#################### MEDIA (567px - Screen) #################*/
+@media screen and (max-width:567px) {

@@ -2,11 +2,15 @@
 
 let images = document.querySelectorAll(".SlideImage");
 let indicators = document.querySelectorAll(".circles");
-let textDesc_Slide = document.querySelector(".imageDesc");
+let textDesc_Slide = document.querySelectorAll(".desc");
 
 
 indicators[0].addEventListener('click', () => {
-    textDesc_Slide.style.transform = "translate(0em)";
+    textDesc_Slide[0].style.opacity = "1";
+    textDesc_Slide[1].style.opacity = "0";
+    textDesc_Slide[2].style.opacity = "0";
+    textDesc_Slide[3].style.opacity = "0";
+    textDesc_Slide[4].style.opacity = "0";
     indicators[0].classList.add('circle_active');
     indicators[1].classList.remove('circle_active');
     indicators[2].classList.remove('circle_active');
@@ -20,7 +24,11 @@ indicators[0].addEventListener('click', () => {
 });
 
 indicators[1].addEventListener('click', () => {
-    textDesc_Slide.style.transform = "translate(-36em)";
+    textDesc_Slide[0].style.opacity = "0";
+    textDesc_Slide[1].style.opacity = "1";
+    textDesc_Slide[2].style.opacity = "0";
+    textDesc_Slide[3].style.opacity = "0";
+    textDesc_Slide[4].style.opacity = "0";
     indicators[0].classList.remove('circle_active');
     indicators[1].classList.add('circle_active');
     indicators[2].classList.remove('circle_active');
@@ -34,7 +42,11 @@ indicators[1].addEventListener('click', () => {
 });
 
 indicators[2].addEventListener('click', () => {
-    textDesc_Slide.style.transform = "translate(-72em)";
+    textDesc_Slide[0].style.opacity = "0";
+    textDesc_Slide[1].style.opacity = "0";
+    textDesc_Slide[2].style.opacity = "1";
+    textDesc_Slide[3].style.opacity = "0";
+    textDesc_Slide[4].style.opacity = "0";
     indicators[0].classList.remove('circle_active');
     indicators[1].classList.remove('circle_active');
     indicators[2].classList.add('circle_active');
@@ -48,7 +60,11 @@ indicators[2].addEventListener('click', () => {
 });
 
 indicators[3].addEventListener('click', () => {
-    textDesc_Slide.style.transform = "translate(-108em)";
+    textDesc_Slide[0].style.opacity = "0";
+    textDesc_Slide[1].style.opacity = "0";
+    textDesc_Slide[2].style.opacity = "0";
+    textDesc_Slide[3].style.opacity = "1";
+    textDesc_Slide[4].style.opacity = "0";
     indicators[0].classList.remove('circle_active');
     indicators[1].classList.remove('circle_active');
     indicators[2].classList.remove('circle_active');
@@ -62,7 +78,11 @@ indicators[3].addEventListener('click', () => {
 });
 
 indicators[4].addEventListener('click', () => {
-    textDesc_Slide.style.transform = "translate(-144em)";
+    textDesc_Slide[0].style.opacity = "0";
+    textDesc_Slide[1].style.opacity = "0";
+    textDesc_Slide[2].style.opacity = "0";
+    textDesc_Slide[3].style.opacity = "0";
+    textDesc_Slide[4].style.opacity = "1";
     indicators[0].classList.remove('circle_active');
     indicators[1].classList.remove('circle_active');
     indicators[2].classList.remove('circle_active');
