@@ -3,7 +3,8 @@
 header,
 .rightlinks,
 .navlinks,
-.contactBtn {
+.contactBtn1,
+.contactBtn2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,14 +53,16 @@ header,
     width: 9em;
 }
 
-.contactBtn {
+.contactBtn1,
+.contactBtn2 {
     padding: 5px 15px;
     background-color: #FF5C00;
     border-radius: 8px;
     cursor: pointer;
 }
 
-.contactBtn p {
+.contactBtn1 p,
+.contactBtn2 p {
     margin-left: 5px;
     font-weight: 500;
     font-size: 15px;
@@ -159,11 +162,64 @@ header,
 
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:993px) and (max-width:1200px) {}
+@media (min-width:993px) and (max-width:1200px) {
+    .headerPadding {
+        padding: 2em 4em;
+    }
+
+    .leftlinks {
+        width: 19%;
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 146px;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:768px) and (max-width:992px) {}
+@media (min-width:768px) and (max-width:992px) {
+    .headerPadding {
+        padding: 2em 4em;
+    }
+
+    .leftlinks {
+        width: 19%;
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .contactImg {
+        display: none;
+    }
+
+    .contactBtn1,
+    .contactBtn2 {
+        padding: 5px 8px;
+    }
+
+    .contactBtn1 p,
+    .contactBtn2 p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .hidattab {
+        display: none;
+    }
+
+    .rightlinks {
+        width: 62%;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
@@ -192,6 +248,21 @@ header,
 
     .leftlinks {
         width: 9em;
+    }
+
+    .contactBtn1,
+    .contactBtn2 {
+        padding: 5px 10px;
+    }
+
+    .contactImg {
+        display: block;
+    }
+
+    .contactBtn1 p,
+    .contactBtn2 p {
+        font-weight: 400;
+        font-size: 14px;
     }
 
     .rightlinks {
@@ -229,8 +300,29 @@ header,
         width: 9em;
     }
 
+    .contactBtn1,
+    .contactBtn2 {
+        padding: 5px 10px;
+    }
+
+    .contactImg {
+        display: block;
+    }
+
+    .contactBtn1 p,
+    .contactBtn2 p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
     .rightlinks {
         display: none;
+    }
+
+    .btn {
+        width: 128px;
+        margin: auto;
+        margin-top: 35px;
     }
 
     .hamburger {
