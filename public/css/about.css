@@ -168,20 +168,262 @@
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:1201px) and (max-width:1400px) {}
+@media (min-width:1201px) and (max-width:1400px) {
+    .rightAbout {
+        width: 50%;
+    }
+
+    .DiscipleContainer {
+        padding: 3em 10em;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .leftDisciple {
+        padding-left: 1em;
+    }
+
+    .whiteLine {
+        width: 35%;
+    }
+
+    .sectionTitle {
+        font-size: 36px;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:991px) and (max-width:1200px) {}
+@media (min-width:993px) and (max-width:1200px) {
+    .rightAbout {
+        width: 51%;
+    }
+
+    .DiscipleContainer {
+        padding: 3em 5em;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .leftDisciple {
+        padding-left: 1em;
+    }
+
+    .whiteLine {
+        width: 33%;
+    }
+
+    .sectionHeading {
+        padding: 0em 4em;
+    }
+
+    .sectionTitle {
+        font-size: 36px;
+    }
+
+    .leftAboutContainer {
+        padding: 3em 0em 3em 4em;
+    }
+
+    .rightAboutContainer {
+        padding: 4em 4em 3em 0em;
+    }
+
+    .aboutTitle {
+        font-size: 40px;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:766px) and (max-width:992px) {}
+@media (min-width:768px) and (max-width:992px) {
+
+    .rightAbout,
+    .leftAbout {
+        width: 100%;
+    }
+
+    .DiscipleContainer {
+        padding: 3em 3em;
+    }
+
+    .disciple {
+        width: 75%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .leftDisciple {
+        padding-left: 1em;
+    }
+
+    .whiteLine {
+        width: 31%;
+    }
+
+    .sectionHeading {
+        padding: 0em 3em;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+    }
+
+    .aboutDesc {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .desc1 {
+        margin-bottom: 12px;
+    }
+
+    .leftAboutContainer {
+        padding: 2em 3em;
+        flex-direction: column-reverse;
+    }
+
+    .rightAboutContainer {
+        padding: 2em 3em;
+        flex-direction: column-reverse;
+    }
+
+    .aboutTitle {
+        font-size: 40px;
+        margin: 35px 0px;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
-@media (min-width:566px) and (max-width:767px) {}
+@media (min-width:568px) and (max-width:767px) {
+
+    .rightAbout,
+    .leftAbout {
+        width: 100%;
+    }
+
+    .DiscipleContainer {
+        padding: 3em 1em;
+    }
+
+    .disciple {
+        width: 94%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .leftDisciple {
+        padding-left: 1em;
+    }
+
+    .whiteLine {
+        width: 27%;
+    }
+
+    .sectionHeading {
+        padding: 0em 1em;
+    }
+
+    .sectionTitle {
+        font-size: 28px;
+    }
+
+    .aboutDesc {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .desc1 {
+        margin-bottom: 10px;
+    }
+
+    .leftAboutContainer {
+        padding: 32px 28px;
+        flex-direction: column-reverse;
+    }
+
+    .rightAboutContainer {
+        padding: 32px 28px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutTitle {
+        font-size: 40px;
+        margin: 12px 0px 30px;
+    }
+}
 
 
 /*#################### MEDIA (567px - Screen) #################*/
 @media screen and (max-width:567px) {
+
+    .rightAbout,
+    .leftAbout {
+        width: 100%;
+    }
+
+    .DiscipleContainer {
+        padding: 3em 1em;
+    }
+
+    .disciple {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .leftDisciple {
+        padding-left: 1em;
+    }
+
+    .whiteLine {
+        width: 25%;
+    }
+
+    .sectionHeading {
+        padding: 0px 16px;
+    }
+
+    .sectionTitle {
+        font-size: 25px;
+    }
+
+    .aboutDesc {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .desc1 {
+        margin-bottom: 10px;
+    }
+
+    .leftAboutContainer {
+        padding: 18px 16px;
+        flex-direction: column-reverse;
+    }
+
+    .rightAboutContainer {
+        padding: 18px 16px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutTitle {
+        font-size: 40px;
+        margin: 12px 0px 30px;
+    }
+
+    .plainbg {
+        margin-top: 0em;
+    }
+}

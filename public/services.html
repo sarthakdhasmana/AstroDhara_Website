@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="css/services.css">
 </head>
 
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+    FOR Web site related Queries or Web development projects Contact: +91 85275 02343(text Hi on Whatsapp) 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
 <body>
     <div class="mobileNav">
         <ul class="Mobnavlinks">
@@ -34,10 +43,13 @@
             </a>
         </ul>
         <div class="btn btnmar">
-            <div class="contactBtn">
-                <img src="assets/Landing-Page_Assets/Hero-Section/Contact_Us.svg" alt="contact Us" class="contactImg">
-                <p>Contact Us</p>
-            </div>
+            <a href="index.html">
+                <div class="contactBtn1">
+                    <img src="assets/Landing-Page_Assets/Hero-Section/Contact_Us.svg" alt="contact Us"
+                        class="contactImg">
+                    <p>Contact Us</p>
+                </div>
+            </a>
         </div>
     </div>
     <div class="heroSectionWrapper headerPadding">
@@ -54,7 +66,7 @@
                         <a href="index.html">
                             <li class="navitems">Home</li>
                         </a>
-                        <a href="services.html">
+                        <a href="services.html" class="hidattab">
                             <li class="navitems">Services</li>
                         </a>
                         <a href="products.html">
@@ -66,11 +78,13 @@
                     </ul>
                 </div>
                 <div class="btn">
-                    <div class="contactBtn">
-                        <img src="assets/Landing-Page_Assets/Hero-Section/Contact_Us.svg" alt="contact Us"
-                            class="contactImg">
-                        <p>Contact Us</p>
-                    </div>
+                    <a href="index.html">
+                        <div class="contactBtn2">
+                            <img src="assets/Landing-Page_Assets/Hero-Section/Contact_Us.svg" alt="contact Us"
+                                class="contactImg">
+                            <p>Contact Us</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <button class="hamburger">
@@ -89,7 +103,7 @@
         <div class="servicesCollection">
             <div class="service leftService">
                 <div class="firstPartService">
-                    <p class="serviceTitle">Shaadi Pujan</p>
+                    <p class="serviceTitle hiddenMob">Shaadi Pujan</p>
                     <div class="serviceDesc">
                         <p class="desc1">It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
@@ -104,13 +118,14 @@
                     </div>
                 </div>
                 <div class="secondPartService">
+                    <p class="serviceTitle showMob">Shaadi Pujan</p>
                     <img src="assets/Services-Page_Assets/Services_01.png" alt="Shaadi Pujan Image"
                         class="serviceImg rightServImg">
                 </div>
             </div>
             <div class="service rightService spacebtw">
                 <div class="firstPartService">
-                    <p class="serviceTitle">Astrology</p>
+                    <p class="serviceTitle hiddenMob">Astrology</p>
                     <div class="serviceDesc">
                         <p class="desc1">It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
@@ -125,13 +140,14 @@
                     </div>
                 </div>
                 <div class="secondPartService">
+                    <p class="serviceTitle showMob">Astrology</p>
                     <img src="assets/Services-Page_Assets/Services_02.png" alt="Shaadi Pujan Image"
                         class="serviceImg leftServImg">
                 </div>
             </div>
             <div class="service leftService spacebtw">
                 <div class="firstPartService">
-                    <p class="serviceTitle">Rashi Fal</p>
+                    <p class="serviceTitle hiddenMob">Rashi Fal</p>
                     <div class="serviceDesc">
                         <p class="desc1">It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
@@ -146,13 +162,14 @@
                     </div>
                 </div>
                 <div class="secondPartService">
+                    <p class="serviceTitle showMob">Rashi Fal</p>
                     <img src="assets/Services-Page_Assets/Services_03.png" alt="Shaadi Pujan Image"
                         class="serviceImg rightServImg">
                 </div>
             </div>
             <div class="service rightService">
                 <div class="firstPartService">
-                    <p class="serviceTitle">Tarot Card</p>
+                    <p class="serviceTitle hiddenMob">Tarot Card</p>
                     <div class="serviceDesc">
                         <p class="desc1">It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
@@ -167,6 +184,7 @@
                     </div>
                 </div>
                 <div class="secondPartService">
+                    <p class="serviceTitle showMob">Tarot Card</p>
                     <img src="assets/Services-Page_Assets/Services_04.png" alt="Shaadi Pujan Image"
                         class="serviceImg leftServImg">
                 </div>
@@ -222,8 +240,9 @@
         <p class="copyright">@ copyright 2019-2022 All right reserved. Powered by Astro Dhara</p>
     </footer>
 
-    <script src="js/Script.js"></script>
-    <script type="module" src="js/firebase.js"></script>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/contactbtn.js"></script>
 </body>
 
 </html>

@@ -116,9 +116,6 @@
     justify-content: space-between;
 }
 
-.leftDisciple {
-    padding-left: 2em;
-}
 
 .rightDisciple {
     width: 37%;
@@ -380,12 +377,22 @@
     }
 
     .name {
-        font-size: 28px;
+        font-size: 22px;
+    }
+
+    .tag {
+        font-size: 12px;
     }
 
     .leftDisciple {
         padding-left: 1em;
+        padding-right: 1em;
     }
+
+    .tags {
+        width: 8.2em;
+    }
+
 
     .whiteLine {
         width: 25%;
@@ -419,8 +426,16 @@
     }
 
     .aboutTitle {
-        font-size: 40px;
+        font-size: 36px;
         margin: 12px 0px 30px;
+    }
+
+    .aboutImg {
+        height: 16em;
+    }
+
+    .rightDisciple {
+        width: 48%;
     }
 
     .plainbg {

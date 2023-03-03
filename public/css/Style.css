@@ -193,6 +193,7 @@
 .rightImage_Content img {
     width: 100%;
     height: 30em;
+    border-radius: 30px;
 }
 
 /* 
@@ -293,7 +294,6 @@
 .overflowdesc {
     overflow: hidden;
     width: 36em;
-    border-radius: 10px;
 }
 
 
@@ -342,6 +342,7 @@
     background: #ffffff;
     opacity: 0;
     position: absolute;
+    border-radius: 10px;
 }
 
 .imageDesc {
@@ -789,6 +790,16 @@
     width: 40%;
 }
 
+.leftIllustrationForm img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.leftIllustrationForm {
+    width: 45%;
+}
+
 .formInput {
     margin-bottom: 25px;
 }
@@ -1010,6 +1021,11 @@ footer {
     background: linear-gradient(180deg, #132540 0%, #111027 100%);
 }
 
+.footerNav_links,
+.footerNav_links {
+    cursor: pointer;
+}
+
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /* footer {
     background: linear-gradient(180deg, #132540 0%, #111027 100%);
@@ -1075,10 +1091,6 @@ footer {
 
     .leftlinks {
         width: 18%;
-    }
-
-    .rightlinks {
-        width: 62%;
     }
 
     .desc_indicatorWrapper {
@@ -1158,7 +1170,7 @@ footer {
     }
 
     .leftlinks {
-        width: 25%;
+        width: 19%;
     }
 
     .navitems {
@@ -1169,7 +1181,8 @@ footer {
         padding: 0em 6em;
     }
 
-    .contactBtn p {
+    .contactBtn1 p,
+    .contactBtn2 p {
         font-weight: 400;
     }
 
@@ -1308,6 +1321,10 @@ footer {
         padding: 3em 4em;
     }
 
+    .RightForm {
+        width: 45%;
+    }
+
     .location_section {
         padding: 5em 4em 4em;
     }
@@ -1337,7 +1354,8 @@ footer {
         width: 100px;
     }
 
-    .contactBtn {
+    .contactBtn1,
+    .contactBtn2 {
         padding: 5px 8px;
     }
 
@@ -1353,7 +1371,8 @@ footer {
         padding: 0em 3em;
     }
 
-    .contactBtn p {
+    .contactBtn1 p,
+    .contactBtn2 p {
         font-weight: 400;
         font-size: 14px;
     }
@@ -1370,6 +1389,28 @@ footer {
         font-size: 35px;
         font-weight: 600;
         line-height: 55px;
+    }
+
+    .overflowdesc {
+        width: 30em;
+    }
+
+    .imageDesc {
+        height: 7.5em;
+    }
+
+    .indicatorBtns {
+        width: 15%;
+    }
+
+    .Desctitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .textDesc {
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .zodiacSection_Desc {
@@ -1563,6 +1604,20 @@ footer {
         padding: 4em 0em 3em;
     }
 
+    .leftIllustrationForm img {
+        height: 23em;
+        object-fit: cover;
+    }
+
+    .rightImage_Content {
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rightImage_Content img {
+        height: 26em;
+    }
 
     .contactForm_section {
         padding: 3em 3em;
@@ -1590,7 +1645,7 @@ footer {
     }
 
     .rightImage_Content {
-        width: 61%;
+        width: 70%;
         margin: auto;
     }
 
@@ -1607,7 +1662,8 @@ footer {
         width: 62%;
     }
 
-    .contactBtn {
+    .contactBtn1,
+    .contactBtn2 {
         padding: 5px 10px;
     }
 
@@ -1620,10 +1676,11 @@ footer {
     }
 
     .desc_indicatorWrapper {
-        padding: 0em 3em;
+        padding: 0em 28px;
     }
 
-    .contactBtn p {
+    .contactBtn1 p,
+    .contactBtn2 p {
         font-weight: 400;
         font-size: 14px;
     }
@@ -1643,7 +1700,27 @@ footer {
         margin-bottom: 10px;
     }
 
+    .overflowdesc {
+        width: 22em;
+    }
 
+    .imageDesc {
+        height: 8em;
+    }
+
+    .indicatorBtns {
+        width: 20%;
+    }
+
+    .Desctitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .textDesc {
+        font-size: 14px;
+        line-height: 21px;
+    }
 
     .zodiacSection_Desc {
         width: 100%;
@@ -1681,6 +1758,25 @@ footer {
     .headerBtns {
         width: 22.7em;
         margin: auto;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-track {
+        box-shadow: 0 0 5px #1b365f;
+        border-radius: 10px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar {
+        width: 20px;
+        height: 8px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-thumb {
+        background: #132540;
+        border-radius: 8px;
+    }
+
+    .zodiacSign_section::-webkit-scrollbar-thumb:hover {
+        background: #1b365f;
     }
 
     .zodiacSign_section {
@@ -1991,11 +2087,12 @@ footer {
     }
 
     .rightImage_Content img {
-        height: 19em;
+        height: 20sem;
+        object-fit: cover;
     }
 
     .headerBtns {
-        width: 100%;
+        width: 84%;
         margin: auto;
     }
 
@@ -2110,25 +2207,21 @@ footer {
         overflow: auto;
     }
 
+    .zodiacSign_section::-webkit-scrollbar-track {
+        box-shadow: 0 0 5px #1b365f;
+        border-radius: 10px;
+    }
+
     .zodiacSign_section::-webkit-scrollbar {
         width: 20px;
         height: 8px;
     }
 
-
-    /* Track */
-    .zodiacSign_section::-webkit-scrollbar-track {
-        /* box-shadow: 0 0 5px #1b365f; */
-        border-radius: 10px;
-    }
-
-    /* Handle */
     .zodiacSign_section::-webkit-scrollbar-thumb {
         background: #132540;
         border-radius: 8px;
     }
 
-    /* Handle on hover */
     .zodiacSign_section::-webkit-scrollbar-thumb:hover {
         background: #1b365f;
     }
@@ -2374,6 +2467,10 @@ footer {
     .inputField input {
         font-size: 14px;
         height: 42px;
+    }
+
+    .leftIllustrationForm {
+        display: none;
     }
 
     /*<<<<<<<<<<<<<< LOCATION SECTION >>>>>>>>>>>>>>>*/
