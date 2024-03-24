@@ -29,6 +29,10 @@
     line-height: 126.9%;
 }
 
+.leftDisciple {
+    padding-left: 2em;
+}
+
 .aboutDesc {
     font-weight: 400;
     font-size: 16px;
@@ -431,11 +435,11 @@
     }
 
     .aboutImg {
-        height: 16em;
+        height: 15em;
     }
 
     .rightDisciple {
-        width: 48%;
+        width: 70%;
     }
 
     .plainbg {
